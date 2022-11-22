@@ -13,6 +13,7 @@
   --bg-color-lila: #cbc6f4;
   --bg-naranja: #eb5e28;
   --bg-naranja-claro: #f4a261;
+  --bg-lila-plateado: #b8bedd;
 
   /* colores de textos */
   --text-color-blanco: #fafafa;
@@ -116,7 +117,7 @@ main {
   color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
-  text-align: center;
+  text-align: initial;
 }
 
 .hero-info p {
@@ -244,36 +245,33 @@ main {
   max-width: 500px;
   height: 400px;
 }
+/* about us */
 
-/* Footer */
-.footer {
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 40px;
-  padding: 60px 0;
- background-color: var(--bg-celesteclaro); */
-  background: var(--background);
-  color: var(--bg-white);
+.about-us {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 40px;
-  padding: 60px 0;
-}
-.footer-links {
-  display: flex;
-  justify-content: center;
-  gap: 60px;
-  padding: 60px 0;
-}
-footer a,
-p {
-  color: var(--text-color-negro);
-  font-weight: 400;
-  font-size: 18px;
   text-align: center;
-  padding: 30px 0;
+  background-color: var(--bg-lila-plateado);
+
+  padding: 50px;
 }
+.about-us img {
+  height: 300px;
+  padding: 12px;
+  box-shadow: 8px 8px 10px 1px var(--text-color-negro);
+}
+.about-us h3 {
+  font-size: 30px;
+  font-weight: 600;
+  padding: 50px;
+}
+.about-us p {
+  text-align: center;
+  padding: 20px;
+  font-size: 12px xx-large;
+}
+.dentro-abt-us {
+  width: 100%;
+  background: var(--bg-lila-plateado);
+}
+/* Foote */ ;
