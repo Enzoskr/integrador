@@ -5,7 +5,7 @@
   --background: #fbf8f5;
   --bg-metal: #ced4da;
   --bg-mostaza: #ffcb69;
-  --bg-naranja: #d08c60;
+  --bg-naranja1: #d08c60;
   --bg-marron: #997b66;
   --bg-verde-oliva: #797d62;
   --bg-azul: #023047;
@@ -27,7 +27,7 @@
   text-decoration: none;
   list-style: none;
   font-family: "poppins", sans-serif;
-  /* border: 1px solid red; */
+  border: 1px solid red;
 }
 body {
   background-color: var(--background);
