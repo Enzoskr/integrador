@@ -57,9 +57,6 @@
   #menu-toggle:checked + .navbar-list {
     display: flex;
   }
-  #hero {
-    width: 90%;
-  }
 
   .hero-info h1 {
     font-size: 32px;
@@ -68,6 +65,8 @@
   }
   #info {
     width: 90%;
+    gap: unset;
+    padding: unset;
   }
   .info-cards-container {
     width: 90%;
@@ -87,7 +86,7 @@
 
     width: 90%;
     max-width: 500px;
-    max-height: 500px;
+    max-height: 600px;
     min-width: unset;
   }
   .about-us {
@@ -95,10 +94,15 @@
     flex-direction: column;
   }
 
-  .about-us,
+  .about-us {
+    max-width: 500px;
+    min-width: none;
+    padding: unset;
+  }
   .about-us-text {
     max-width: 500px;
     min-width: none;
+    padding: none;
   }
   .about-us-text h3 {
     font-size: 30px;
@@ -108,7 +112,11 @@
 
   #info h2,
   #container-de-lugares h2 {
-    padding: 40px;
+    padding: 30px;
+  }
+  .lugares-de-consideracion {
+    gap: 30px;
+    padding: unset;
   }
 
   footer {
@@ -119,5 +127,6 @@
     flex-direction: column;
     text-align: center;
     letter-spacing: none;
+    text-decoration: underline black 1px;
   }
 }
