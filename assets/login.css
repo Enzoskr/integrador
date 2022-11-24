@@ -27,7 +27,7 @@
   text-decoration: none;
   list-style: none;
   font-family: "poppins", sans-serif;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 body {
   background-color: var(--background);
@@ -133,4 +133,9 @@ i {
   font-size: 30px;
   padding: 10px;
   color: var(--text-color-negro);
+}
+@media (max-width: 576px) {
+  .login-container {
+    width: 90%;
+  }
 }

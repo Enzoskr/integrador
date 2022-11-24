@@ -219,7 +219,6 @@ main {
 }
 
 .lugares-de-consideracion {
-  /* background-color: var(--bg-vainilla); */
   display: flex;
   flex-wrap: wrap;
   align-items: center;
