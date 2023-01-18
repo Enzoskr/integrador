@@ -228,6 +228,10 @@ main {
   max-width: 1200px;
   margin-top: 40px;
 }
+.equipotop2 h3 {
+  text-decoration: underline;
+  padding: 4px;
+}
 .equipo-2 {
   background-color: var(--bg-naranja);
   padding: 20px;
@@ -244,6 +248,7 @@ main {
 .equipotop2 {
   background-color: var(--bg-naranja-claro);
   gap: 10px;
+  padding: 6px;
 }
 .equipo-2 img {
   border-radius: 1rem;
@@ -280,7 +285,7 @@ main {
     rgba(235, 94, 40, 1) 100%
   );
   border-radius: 1rem;
-  color: var(--text-color-gris);
+  color: var(--text-color-negro);
 }
 .about-us-text {
   display: flex;
